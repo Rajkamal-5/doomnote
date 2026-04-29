@@ -1,0 +1,98 @@
+
+/* Project Page Special Styling */
+.project-hero {
+    background: #1a1a1a;
+    color: white;
+    padding: 100px 10%;
+    text-align: center;
+    border-bottom: 4px solid #27ae60;
+}
+
+.project-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.project-hero p {
+    font-size: 1.5rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+    padding: 50px 5%;
+}
+
+.project-card {
+    background: #fff;
+    border-left: 5px solid #27ae60;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    min-height: 280px;
+}
+
+.project-card:hover {
+    background: #f9f9f9;
+    transform: scale(1.03);
+}
+
+.project-content h3 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.project-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.tag {
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.project-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.view-btn {
+    text-decoration: none;
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: 2px solid #27ae60;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background: #27ae60;
+    color: white;
+}
+
+.code-btn {
+    text-decoration: none;
+    color: #666;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.code-btn:hover {
+    background: #666;
+    color: white;
+}
